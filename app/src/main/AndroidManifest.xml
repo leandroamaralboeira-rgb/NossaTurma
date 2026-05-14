@@ -12,6 +12,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NossaTurma">
         <activity
+            android:name=".victorA.victorAMainActivity"
+            android:exported="false"
+            android:theme="@style/Theme.NossaTurma" />
+        <activity
+            android:name=".maria.Maria_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".maria.Tela_1"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -20,6 +30,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

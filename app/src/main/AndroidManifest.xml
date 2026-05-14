@@ -16,6 +16,12 @@
             android:exported="false"
             android:theme="@style/Theme.NossaTurma" />
         <activity
+            android:name=".maria.Maria_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".maria.Tela_1"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

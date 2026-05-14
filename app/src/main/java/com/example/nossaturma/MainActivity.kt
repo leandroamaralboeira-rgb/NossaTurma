@@ -22,11 +22,25 @@ class MainActivity : AppCompatActivity() {
         // 2. Criar a lista de 21 alunos (Para o envio inicial ao GitHub)
         // Substitua estes nomes pelos nomes reais da sua turma
         val alunosDaTurma = listOf(
-            Aluno("João Silva"),
-            Aluno("Maria Souza"),
-            Aluno("Pedro Alves"),
-            Aluno("Ana Lima"),
-            Aluno("Carlos Santos"),
+            Aluno("Amanda"),
+            Aluno("Anthony"),
+            Aluno("Bruno"),
+            Aluno("Daniel"),
+            Aluno("David"),
+            Aluno("Eduardo"),
+            Aluno("Isadora"),
+            Aluno("Jéssica"),
+            Aluno("Júlia"),
+            Aluno("Lorenzo"),
+            Aluno("Manuella"),
+            Aluno("Maria"),
+            Aluno("Natasha"),
+            Aluno("Paulo"),
+            Aluno("Rafael"),
+            Aluno("Sabrina"),
+            Aluno("Samuel"),
+            Aluno("Victor"),
+            Aluno("Victor Hugo"),
             // ... (até o 21º)
             Aluno("Professor - Exemplo")
         )

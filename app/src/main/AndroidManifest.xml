@@ -12,18 +12,39 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NossaTurma">
         <activity
-            android:name=".victorH.victorHActivity"
-            android:exported="false" />
-        <activity
             android:name=".victorA.victorAMainActivity"
             android:exported="false"
             android:theme="@style/Theme.NossaTurma" />
         <activity
             android:name=".maria.Maria_Activity"
             android:exported="false" />
+
+        <!-- ======================================================== -->
+        <!-- ✅ COPIE ESTE BLOCO E COLE AQUI PARA RESOLVER OS ERROS ✅ -->
+        <!-- ======================================================== -->
+
         <activity
-            android:name=".maria.Tela_1"
-            android:exported="false" />
+            android:name=".eduardo.eduardoactivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".isadora.IsadoraActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".rafael.RafaelActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".paulo.PauloActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <!-- ======================================================== -->
+
+
         <activity
             android:name=".MainActivity"
             android:exported="true">

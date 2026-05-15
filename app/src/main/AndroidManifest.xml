@@ -12,8 +12,39 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NossaTurma">
         <activity
-            android:name=".jessica.JessicaActivity"
+            android:name=".victorA.victorAMainActivity"
+            android:exported="false"
+            android:theme="@style/Theme.NossaTurma" />
+        <activity
+            android:name=".maria.Maria_Activity"
             android:exported="false" />
+
+        <!-- ======================================================== -->
+        <!-- ✅ COPIE ESTE BLOCO E COLE AQUI PARA RESOLVER OS ERROS ✅ -->
+        <!-- ======================================================== -->
+
+        <activity
+            android:name=".eduardo.eduardoactivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".isadora.IsadoraActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".rafael.RafaelActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".paulo.PauloActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <!-- ======================================================== -->
+
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -23,6 +54,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

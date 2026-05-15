@@ -6,6 +6,10 @@
     <string name="next">Next</string>
     <string name="previous">Previous</string>
 
+    <string name="victor_hugo_name">Victor Hugo Domingues Bairros</string>
+    <string name="victor_hugo_bio">Tenho 17 anos, nasci em Bento Gonçalves e estou cursando o ensino médio na escola Mestre Santa Bárbara.</string>
+    <string name="victor_hugo_photo_desc">Foto de Victor Hugo</string>
+
     <string name="lorem_ipsum">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
         volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
